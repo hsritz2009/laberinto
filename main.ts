@@ -14,11 +14,13 @@ function girar90a_izquierda () {
 }
 let ultimogiro = 0
 basic.forever(function () {
-    if (true) {
-        if (true) {
-            if (true) {
+    if (maqueen.Ultrasonic(PingUnit.Centimeters) < 4) {
+        if (maqueen.Ultrasonic(PingUnit.Centimeters) < 4) {
+            if (maqueen.Ultrasonic(PingUnit.Centimeters) < 4) {
             	
             }
         }
+    } else {
+    	
     }
 })
